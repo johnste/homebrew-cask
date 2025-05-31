@@ -1,5 +1,5 @@
 cask "finicky" do
-  version "4.1.0"
+  version "4.1.1"
   sha256 "a142dfd14f81ce506f2f56fb4be9d44ba2ec7b8db5a969af0b7b640753c63186"
 
   url "https://github.com/johnste/finicky/releases/download/v#{version}/Finicky.dmg"
@@ -16,5 +16,5 @@ cask "finicky" do
 
   app "Finicky.app"
 
-  zap trash: "~/Library/Preferences/net.kassett.finicky.plist"
+  zap trash: "~/Library/Preferences/se.johnste.finicky.plist"
 end
